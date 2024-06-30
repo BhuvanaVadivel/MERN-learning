@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+nav{
+    background-color: black;
+    padding: 15px;
+}
+
+nav ul,h1,li{
+    display: inline;
+    position: relative;
+    left: 500px;
+}
+
+nav{
+    background-color: black;
+    color: aliceblue;
+    padding: 15px;
+}
+
+nav ul{
+    margin-block-start: 100px;
+}
+
+nav li{
+    cursor: pointer;
+    padding: 11px;
+}
+
