@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 50px;
+    width: 150px;
+    background-color: aqua;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: 350px;
+    background-color: rgb(157, 2, 129);
+    gap: 10px;
+    justify-content: center;
+}
+
+.item{
+    background-color: rgb(18, 189, 195);
+    height: 50px;
+}
+
+.item1{
+    background-color: rgb(18, 189, 195);
+    align-self: flex-end;
+}
+
